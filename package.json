@@ -1,0 +1,30 @@
+{
+  "name": "Website-Optimization",
+  "version": "1.0.0",
+  "description": "web optimization project",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-imagemin": "^0.9.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://anilbiradar014.github.io/Website-Optimization/"
+  },
+  "keywords": [
+    "grunt",
+    "Website-Optimization"
+  ],
+  "author": "Anil Biradar",
+  "license": "ISE",
+  "bugs": {
+    "url": "https://anilbiradar014.github.io/Website-Optimization/issues"
+  },
+  "homepage": "https://anilbiradar014.github.io/Website-Optimization/#readme"
+}

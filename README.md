@@ -5,19 +5,13 @@
 The task was to optimize a provided website with a number of optimization and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
  
 Link to Optimised page : [Website-Optimization](https://anilbiradar014.github.io/Website-Optimization/)
- 
-### Getting started
- 
-1. Check out the repository
-2. To inspect the site on your phone, you can run a local server
-3. Open a browser and visit localhost:8080
- 
+  
  
 ###Index Page
  
 The index page originally had a Google PageSpeed score of 35/100 for mobile and 47/100 for desktop. After optimizing the score increased to 96/100 for mobile and 97/100 for desktop. .
  
-###The following changes were made:
+##The following changes were made:
  
 * Inlined CSS added to index.html
  

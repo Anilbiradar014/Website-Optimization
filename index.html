@@ -8,7 +8,6 @@
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <link href="destination/css/print.css" rel="stylesheet" media="print">
     <style type="text/css">
@@ -71,5 +70,17 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
+<script async>
+        var gapi = function() {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'http://fonts.googleapis.com/css?family=Open+Sans:400,700';
+            var head = document.getElementsByTagName('head')[0];
+            head.parentNode.insertBefore(link, head);
+       };
+          var raf = requestAnimationFrame;
+          if (raf) raf(cb);
+          else window.addEventListener('load', gapi);
+</script>
   </body>
 </html>
